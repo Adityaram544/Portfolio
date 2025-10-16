@@ -562,6 +562,9 @@ body{
     text-decoration: none;
     font-weight: 600;
     margin-bottom: 8px;
+    cursor: pointer;
+    pointer-events: auto;
+    border: none;
 }
 .contact-form form .send:hover{
     box-shadow: 0 0 25px cyan;
@@ -756,3 +759,4 @@ body{
         display: flex;
     }
 }
+
